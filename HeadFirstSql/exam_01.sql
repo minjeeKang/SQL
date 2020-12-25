@@ -74,6 +74,7 @@ CREATE TABLE my_contacts
 	last_name	varchar(30) NOT NULL,
     first_name	varchar(20) NOT NULL,
     email		varchar(50) NOT NULL,
+    gender		CHAR(1),
     birthday	date NOT NULL,
     profession	varchar(50) NOT NULL,
     location	varchar(50) NOT NULL,
